@@ -1,0 +1,43 @@
+body {
+    background:#d92b2b;
+    font-family: "ms gothic";
+    font-size:13px;
+    letter-spacing:1px;
+    color: black;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .content {
+    max-width: 850px;
+    margin: 100px;
+  }
+  
+  .bottom {
+      position: fixed;
+      bottom: 0;
+  }
+  
+  h1 {
+      font-family: "courier new";
+      font-size: 1.5em;
+  }
+  
+  h2 {
+      font-size: 1em;
+  }
+  
+  p {
+      font-size: 0.85em;
+  }
+  
+  a:link { 
+      color: #d49a97;
+  }
+  a:visited {
+    color: #d49a97;
+  }
+  
+  a:hover{
+    font-style:italic;
+  }
