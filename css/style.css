@@ -33,6 +33,7 @@ body {
   
   a:link { 
       color: #d49a97;
+      font-size:13px;
   }
   a:visited {
     color: #d49a97;
