@@ -1,7 +1,6 @@
 body,html {
-    background-image: url(/assets/uuuuu.gif);
+    background: url(/assets/uuuuu.gif), #ffe3ea;
     background-repeat: repeat-y;
-    background-color:#3a3a3a;
     font-family: "ms gothic";
     font-size:15px;
     letter-spacing:1px;
