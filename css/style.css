@@ -8,6 +8,10 @@ body {
     margin: auto;
   }
   
+  html, body {
+    height: 100%;
+}
+
   .content {
     max-width: 850px;
     margin: 100px;
@@ -16,15 +20,6 @@ body {
   .bottom {
       position: fixed;
       bottom: 0;
-  }
-  
-  .info {
-    font-family: monospace;
-    position: absolute;
-    line-height: 20px;
-    font-size: 14px;
-    left: 20px;
-    top: 20px;
   }
   
   h1 {
