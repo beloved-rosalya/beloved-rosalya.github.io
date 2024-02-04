@@ -14,7 +14,7 @@ body,html {
  }
 
   .content {
-    max-width: fit-content;
+    max-width: center;
     margin: 100px;
   }
   
