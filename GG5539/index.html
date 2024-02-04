@@ -12,7 +12,30 @@
     <br><br><br><br><br><br><br><br><br><br>
           <center><h2><img src="/assets/s2.gif" width="80px">você é cintilante e a sua vida agrada à Deus!!<img src="/assets/s2.gif" width="80px"></h2></center>
     </div>
-    <script src="/GG5539/audio.js"></script>
+    <script> var source = "/assets/omedetou.mp3"
+    var audio = document.createElement("audio");
+    //
+    audio.autoplay = true;
+    //
+    audio.load()
+    audio.addEventListener("load", function() { 
+        audio.play(); 
+    }, true);
+    audio.src = source;
+    
+    
+    $("#playBtn").click(function() {
+      audio.play();
+    });
+    
+    $("#pauseBtn").click(function() {
+      audio.pause();
+    });
+    
+    $("#stopBtn").click(function() {
+      audio.pause();
+      audio.currentTime = 0;
+    }); </script>
  <audio controls preload = "auto" autoplay loop><source src="/assets/omedetou.mp3" type="audio/mp3"></audio>
     </body>
     </html> 
