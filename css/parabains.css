@@ -1,0 +1,46 @@
+body {
+    background-image: url(/assets/uuuuu.gif);
+    background-repeat: repeat-y 
+    font-family: "ms gothic";
+    font-size:15px;
+    letter-spacing:1px;
+    color: black;
+    max-width: 1000px;
+    margin: auto;
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-10/cur918.cur), auto !important;
+}
+
+  .content {
+    max-width: 850px;
+    margin: 100px;
+  }
+  
+  .bottom {
+      position: fixed;
+      bottom: 0;
+  }
+  
+  h1 {
+      font-family: "courier new";
+      font-size: 1.5em;
+  }
+  
+  h2 {
+      font-size: 1em;
+  }
+  
+  p {
+      font-size: 0.85em;
+  }
+  
+  a:link { 
+      color: #d49a97;
+      font-size:13px;
+  }
+  a:visited {
+    color: #d49a97;
+  }
+  
+  a:hover{
+    font-style:italic;
+  }
