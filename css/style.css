@@ -1,11 +1,14 @@
-body {
+body,html {
     background:#ffd4df;
     font-family: "ms gothic";
     font-size:15px;
     letter-spacing:1px;
     color: black;
     max-width: 1000px;
-    margin: auto;
+    height: 100%; 
+    width: 100%; 
+    padding: 0; 
+    margin: 0;
     cursor: url(https://cur.cursors-4u.net/cursors/cur-10/cur918.cur), auto !important;
   }
 
