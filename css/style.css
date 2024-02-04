@@ -13,11 +13,13 @@ body,html {
   }
 
   .content {
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-10/cur918.cur), auto !important;
     max-width: 850px;
     margin: 100px;
   }
   
   .bottom {
+      cursor: url(https://cur.cursors-4u.net/cursors/cur-10/cur918.cur), auto !important;
       position: fixed;
       bottom: 0;
   }
