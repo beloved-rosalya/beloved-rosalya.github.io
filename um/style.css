@@ -1,0 +1,87 @@
+body,html {
+    background:#ffd4df;
+    font-family: "ms gothic";
+    font-size:15px;
+    letter-spacing:1px;
+    color: black;
+    max-width: 1000px;
+    margin: auto;
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-10/cur918.cur), auto !important;
+  }
+
+  #motherDiv div {
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-10/cur918.cur), auto !important;
+ }
+
+  .content {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+
+.box {
+   display: inline-block;
+   position: relative;
+}
+
+.box .text {
+   display: inline;
+   position: absolute;
+   top: 50%;
+   left: 75%;
+   transform: translate(-50%, -50%);
+}
+
+.imgbox {
+            display: grid;
+            height: 100%;
+        }
+.center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: #ffd4df;
+}
+
+::selection {
+  color: black;
+  background: #ffd4df;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffd4df;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffd4df;
+}
+
+div.mousescroll {
+    overflow: hidden;
+}
+div.mousescroll:hover {
+    overflow-y: scroll;
+
+/*---*/
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 50%;
+  }
+}
